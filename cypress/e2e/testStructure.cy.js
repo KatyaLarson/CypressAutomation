@@ -28,6 +28,20 @@ describe('Context:My first test',() => {
        
      })
 
+     
+     it('Test 2',() =>{
 
+        expect(false).to.equal(false);
+     })
+
+     it('Test 3',() =>{
+
+        expect(false).not.to.equal(true);
+     })
+
+     xit('Test 4',() =>{
+
+        expect(true).to.equal('5'==5);
+     })
 
 })
